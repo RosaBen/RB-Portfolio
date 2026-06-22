@@ -4,8 +4,6 @@ export const coverPageData = {
   bio: "Après 4 ans dans la gestion des dysfonctionnements entre le service client et le service produit, j'ai fait le choix de me reconvertir vers le développement web. Passionnée par la création d'interfaces modernes et accessibles, je construis aujourd'hui des projets avec React, JavaScript et Node.js.",
   tags: ["React", "JavaScript", "Node.js", "UI Design", "Alternance 2026"],
   email: "benchabane.rosa@outlook.com",
-  phone: "06 42 22 85 82",
-  city: "Stains, Île-de-France",
   website: "#",
   websiteLabel: "RosaB-Portfolio",
 };
@@ -62,6 +60,8 @@ export const projectPage = [
 ];
 
 export const contactPage = {
+  phone: "06 42 22 85 82",
+  city: "Stains, Île-de-France",
   github: "https://github.com/RosaBen/myPortfolio",
   cv: "rosa-benchabane-cv.netlify.app",
   cvPdf: "https://marie-dev.fr/cv.pdf",

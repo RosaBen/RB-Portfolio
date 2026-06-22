@@ -26,6 +26,11 @@ body {
   text-align: center;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+}
+
 .container {
   display: grid;
   grid-template-columns: 50% 2rem 50%;
