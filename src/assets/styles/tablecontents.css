@@ -1,0 +1,46 @@
+.pages {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.content-item {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--light);
+  align-items: center;
+  width: 500px;
+}
+
+.content-item span {
+  color: var(--light);
+  font-weight: 600;
+}
+
+.content-item div {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: 465px;
+}
+
+.content-item div h5 {
+  color: var(--dark);
+  width: 265px;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.content-item div div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.content-item div div:nth-child(2) span:nth-child(1) {
+  width: 200px;
+  background-color: var(--ghost);
+  height: 0.2rem;
+}

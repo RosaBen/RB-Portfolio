@@ -10,11 +10,11 @@ export const coverPageData = {
 
 export const contentTablePage = [
   { label: "à propos de moi", page: 1 },
-  { label: "Projet — App de tâches", page: 1 },
-  { label: "Projet — Site vitrine", page: 2 },
-  { label: "Projet — Dashboard", page: 2 },
-  { label: "Projet — API REST", page: 3 },
-  { label: "Contact & liens", page: 3 },
+  { label: "Projet — App de tâches", page: 2 },
+  { label: "Projet — Site vitrine", page: 3 },
+  { label: "Projet — Dashboard", page: 4 },
+  { label: "Projet — API REST", page: 5 },
+  { label: "Contact & liens", page: 6 },
 ];
 
 export const aboutMePage = {

@@ -80,3 +80,25 @@ main {
   color: var(--pale);
   opacity: 0.7;
 }
+
+.table-contents-page {
+  background-color: var(--white);
+  height: 800px;
+  padding: 2rem;
+}
+
+h2:not(.home-page h2) {
+  color: var(--light);
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.table-contents-page h2:not(.home-page h2) span {
+  background-color: var(--light);
+  width: 400px;
+  height: 0.2rem;
+}
