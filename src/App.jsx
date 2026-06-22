@@ -1,9 +1,10 @@
 import { coverPageData } from "./assets/scripts/data";
 
 import PortfolioCover from "./components/PortfolioCover";
-import CoverPage from "./components/CoverPage";
+import HomePage from "./components/HomePage";
 
 import "./assets/styles/portfolioCover.css";
+import "./assets/styles/homepage.css";
 
 function App() {
   const { name, role, bio, tags, email, website, websiteLabel } = coverPageData;
@@ -11,7 +12,7 @@ function App() {
     <main>
       <div className="container">
         <div className="left">
-          <CoverPage
+          <HomePage
             name={name}
             role={role}
             bio={bio}

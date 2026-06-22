@@ -1,6 +1,6 @@
 import avatar from "../assets/images/avatarRB.jpg";
 
-export default function CoverPage({
+export default function HomePage({
   name,
   role,
   bio,
@@ -13,8 +13,10 @@ export default function CoverPage({
     <span key={index}>{tag}</span>
   ));
   return (
-    <section className="cover-page">
-      <img src={avatar} alt={`avatar ${name}`} />
+    <section className="home-page">
+      <div className="image">
+        <img src={avatar} alt={`avatar ${name}`} />
+      </div>
       <h2>{name}</h2>
       <h3>{role}</h3>
       <div></div>
