@@ -18,9 +18,9 @@ export const contentTablePage = [
 ];
 
 export const aboutMePage = {
-  parcours: "J'ai passé près de 4 ans à travailler entre le service client et l'équipe développement, et j'ai donc décidé de me reconvertir dans le développement web — un domaine qui me passionne depuis longtemps.",
+  journey: "J'ai passé près de 4 ans à travailler entre le service client et l'équipe développement, et j'ai donc décidé de me reconvertir dans le développement web — un domaine qui me passionne depuis longtemps.",
   strength: "Sens du client, autonome, résolution de problèmes et rigueur. Ces compétences enrichissent mon approche du code : je pense toujours à l'utilisateur final.",
-  recherche: "Alternance Développeur Web — Paris & remote",
+  searching: "Alternance Développeur Web — Paris & remote",
   skills: ["React", "JavaScript", "HTML/CSS", "Node.js", "MySQL", "Postgres", "Git", "Figma"],
 };
 

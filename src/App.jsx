@@ -1,20 +1,27 @@
-import { coverPageData, contentTablePage } from "./assets/scripts/data";
+import {
+  coverPageData,
+  contentTablePage,
+  aboutMePage,
+} from "./assets/scripts/data";
 
 import PortfolioCover from "./components/PortfolioCover";
 import HomePage from "./components/HomePage";
 import TableContents from "./components/TableContents";
+import AboutMe from "./components/AboutMe";
 
 import "./assets/styles/portfolioCover.css";
 import "./assets/styles/homepage.css";
 import "./assets/styles/tablecontents.css";
+import "./assets/styles/aboutme.css";
 
 function App() {
   const { name, role, bio, tags, email, website, websiteLabel } = coverPageData;
+  const { journey, strength, searching, skills } = aboutMePage;
   return (
     <main>
       <div className="container">
         <div className="left">
-          <HomePage
+          {/* <HomePage
             name={name}
             role={role}
             bio={bio}
@@ -22,6 +29,12 @@ function App() {
             email={email}
             website={website}
             label={websiteLabel}
+          /> */}
+          <AboutMe
+            journey={journey}
+            strength={strength}
+            searching={searching}
+            skills={skills}
           />
         </div>
         <div className="spine">

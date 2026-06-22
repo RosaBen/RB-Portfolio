@@ -1,0 +1,45 @@
+.about-me-page {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.about-me-page h3 {
+  color: var(--light);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.articles {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-bottom: 2rem;
+}
+
+article p {
+  color: var(--dark);
+  text-align: left;
+  font-size: 0.85rem;
+}
+
+article ul {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+article ul li {
+  background-color: var(--ghost);
+  border-radius: 2rem;
+  padding: 0.5rem;
+  border: 2px solid var(--light);
+  width: 200px;
+  color: var(--dark);
+}
